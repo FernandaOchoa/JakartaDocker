@@ -4,6 +4,21 @@ Plantilla de aplicación web que usa Docker y Docker Compose.
 
 ## Tutoriales previos
 
+* Puedes consultar el vídeo de la sesión: [Aquí](https://web.microsoftstream.com/video/43463030-c7be-4b72-b8f7-f4231e42bc3d?list=studio)
+```
+  00:08:23 Inicio del Live
+  00:15:40 Explicación del proyecto a realizar
+  00:22:40 Hola Mundo con Jakarta EE y Tomcat
+  Explicación de Java Web : JSP y Servlets
+  00:47:10 Contenerizar el Proyecto
+  - Contenerizar una bd
+  - Contenerizar una app de java web
+  - Trabajando con puertos
+  - Docker Networking
+  01:40:30 Docker Compose
+  01:51:50 Desplegar una app desde un repositorio
+```
+
 * Para acceder al tutorial de la creación del Hola Mundo con Jakarta y Tomcat [clic aquí](https://web.microsoftstream.com/video/43463030-c7be-4b72-b8f7-f4231e42bc3d?list=studio)
 * Para acceder al tutorial de la creación del Docker y Docker Compose [clic aquí](https://github.com/FernandaOchoa/JakartaDocker/blob/master/FormularioconDocker.md)
 
