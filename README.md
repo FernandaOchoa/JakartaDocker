@@ -40,4 +40,40 @@ Plantilla de aplicación web que usa Docker y Docker Compose.
     * ![image](https://user-images.githubusercontent.com/9124597/168211743-175f8ea5-46b1-40c0-bef4-dba5a871bccb.png)
 5. Accede a la aplicación desde la dirección http://localhost:8080/MyWebApp/
   * ![image](https://user-images.githubusercontent.com/9124597/168211816-56082fa2-dfe1-410a-b74d-46092e1c92f0.png)
+  * Al ingresar tus datos podrás ver que tu aplicación funciona correctamente
+    * ![image](https://user-images.githubusercontent.com/9124597/168211891-50faba69-aa85-4a4c-b63e-bd1d4f879031.png)
+
+
+## Explorando la aplicación
+
+
+### Base de Datos
+
+  * En la terminal con el comando ```docker exec -it jakartadocker_app-db_1 mysql -uroot -p``` podremos ingresar al contenedor de la base de datos
+    * ![image](https://user-images.githubusercontent.com/9124597/168212171-dad04728-f04f-4c43-9750-ecd4499e4ace.png)
+  * Mostramos las bases de datos existentes en el contenedor
+    * ![image](https://user-images.githubusercontent.com/9124597/168212298-d56b0857-6f0e-445a-bd45-024111d58ba0.png)
+  * Especificamos la base de datos que queremos usar
+    * ![image](https://user-images.githubusercontent.com/9124597/168212338-df032f1c-10d3-4512-9f05-6b8282deccfe.png)
+  * Mostramos las columnas que tiene tabla **Person** de la base de datos que creamos.
+    * ![image](https://user-images.githubusercontent.com/9124597/168212453-4ecd591e-ebb4-461c-abfd-d601115e6d09.png)
+  * Podemos comparar la tabla con nuestra clase **Person** en Java
+    * ![image](https://user-images.githubusercontent.com/9124597/168212693-d4f7fc6d-a276-4292-8bcd-4d43c187b93d.png)
+    * Son idénticas, ya que al ejecutar nuestra app, se crea la base de datos tomando como referencia nuestra clase **Persona** (Gracias JPA's)  
+  * Realizamos una consulta para saber el contenido de nuestra tabla persona
+    * ![image](https://user-images.githubusercontent.com/9124597/168212566-72862121-f256-4f1c-ac0d-952ae03c0c4b.png)
+
+### Contenedores
+
+Tenemos 2 contenedores:
+
+* App
+* Base de Datos
+
+![image](https://user-images.githubusercontent.com/9124597/168212960-4c4e7656-70a4-4acf-a375-b55a0fc831bb.png)
+
+ 
+ 
+ 
+
  
