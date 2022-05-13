@@ -2,6 +2,11 @@
 
 Plantilla de aplicación web que usa Docker y Docker Compose.
 
+## Tutoriales previos
+
+* Para acceder al tutorial de la creación del Hola Mundo con Jakarta y Tomcat [clic aquí](https://web.microsoftstream.com/video/43463030-c7be-4b72-b8f7-f4231e42bc3d?list=studio)
+* Para acceder al tutorial de la creación del Docker y Docker Compose [clic aquí](https://github.com/FernandaOchoa/JakartaDocker/blob/master/FormularioconDocker.md)
+
 ## Instrucciones para levantar y ejecutar la aplicación:
 
 0. Asegúrate de tener Docker instalado y corriendo.
