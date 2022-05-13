@@ -49,7 +49,7 @@ Plantilla de aplicación web que usa Docker y Docker Compose.
 
 ### Base de Datos
 
-  * En la terminal con el comando ```docker exec -it jakartadocker_app-db_1 mysql -uroot -p``` podremos ingresar al contenedor de la base de datos
+  * En la terminal con el comando ```docker exec -it jakartadocker_app-db_1 mysql -uroot -p``` podremos ingresar al contenedor de la base de datos con la contraseña **pasword** 
     * ![image](https://user-images.githubusercontent.com/9124597/168212171-dad04728-f04f-4c43-9750-ecd4499e4ace.png)
   * Mostramos las bases de datos existentes en el contenedor
     * ![image](https://user-images.githubusercontent.com/9124597/168212298-d56b0857-6f0e-445a-bd45-024111d58ba0.png)
