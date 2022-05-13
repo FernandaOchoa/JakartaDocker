@@ -93,7 +93,16 @@ Tenemos 2 contenedores:
 ![image](https://user-images.githubusercontent.com/9124597/168212960-4c4e7656-70a4-4acf-a375-b55a0fc831bb.png)
 
  
- 
+---
+
+Curso Backend Java Developer para Launch X - Innovacción Virtual.
+
+Material desarrollado por: Fernanda Ochoa - Learning Producer de LaunchX & Mission Commander de LaunchX.
+
+Redes:
+* GitHub: [FernandaOchoa](https://github.com/FernandaOchoa)
+* Twitter: [@imonsh](https://twitter.com/imonsh)
+* Instagram: [fherz8a](https://www.instagram.com/fherz8a/)
  
 
  
